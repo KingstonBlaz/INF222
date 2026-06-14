@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songo - Version Locale</title>
+    <link rel="stylesheet" href="songo.css">
+    <script src="songo.js"></script>
+</head>
+<body>
+
+    <div id="ecran-jeu">
+        <h1 class="titre-jeu">SONGO</h1>
+        
+        <!-- Score Joueur 2 (Haut) -->
+        <div class="zone-score joueur2">
+            <div class="label">Joueur 2</div>
+            <div id="score-j2" class="score-valeur">0</div>
+        </div>
+        
+        <!-- Rangée Joueur 2 (Indices 13 à 7 de gauche à droite pour le sens anti-horaire) -->
+        <div class="rangee joueur2">
+            <div class="case" data-index="13">5</div>
+            <div class="case" data-index="12">5</div>
+            <div class="case" data-index="11">5</div>
+            <div class="case" data-index="10">5</div>
+            <div class="case" data-index="9">5</div>
+            <div class="case" data-index="8">5</div>
+            <div class="case" data-index="7">5</div>
+        </div>
+        
+        <!-- Zone centrale de Statut -->
+        <div id="statut-partie" class="statut-j1">Chargement...</div>
+        
+        <!-- Rangée Joueur 1 (Indices 0 à 6 de gauche à droite) -->
+        <div class="rangee joueur1">
+            <div class="case" data-index="0">5</div>
+            <div class="case" data-index="1">5</div>
+            <div class="case" data-index="2">5</div>
+            <div class="case" data-index="3">5</div>
+            <div class="case" data-index="4">5</div>
+            <div class="case" data-index="5">5</div>
+            <div class="case" data-index="6">5</div>
+        </div>
+        
+        <!-- Score Joueur 1 (Bas) -->
+        <div class="zone-score joueur1">
+            <div class="label">Joueur 1</div>
+            <div id="score-j1" class="score-valeur">0</div>
+        </div>
+    </div>
+</body>
